@@ -1,7 +1,7 @@
 import gradio as gr
 example_list =  [['examples/cov1.png'],
                  ['examples/cov2.jpg'],
-                 ['examples/nor1.png'],
+                 ['examples/nor1.jpg'],
                  ['examples/nor2.jpg'],
                  ['examples/penu1.jpg'],
                  ['examples/penu2.jpg']]
