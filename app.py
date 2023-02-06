@@ -1,10 +1,4 @@
 import gradio as gr
-example_list =  [['examples/cov1.png'],
-                 ['examples/cov2.jpg'],
-                 ['examples/nor1.jpg'],
-                 ['examples/nor2.jpg'],
-                 ['examples/penu1.jpg'],
-                 ['examples/penu2.jpg']]
 import requests
 
 API_URL = "https://api-inference.huggingface.co/models/hamdan07/UltraSound-Lung"
@@ -36,9 +30,17 @@ with app:
         </p>
         """
     )
+    title = "COVID-19 Detection in Ultrasound Imagery Using Artificial intelligent Methods"
+    description = "[Trained on 500 data using Hugging Face dataset."
+    gr.Interface.load("models/hamdan07/UltraSound-Lung")
+    example_list =  [['examples/cov1.png'],
+                 ['examples/cov2.jpg'],
+                 ['examples/nor1.jpg'],
+                 ['examples/nor2.jpg'],
+                 ['examples/penu1.jpg'],
+                 ['examples/penu2.jpg']]
     
-title = "COVID-19 Detection in Ultrasound Imagery Using Artificial intelligent Methods"
-description = "[Trained on 500 data using Hugging Face dataset."
-gr.Interface.load("models/hamdan07/UltraSound-Lung",examples=example_list,title=title,description=description,Markdown=app)
+    
+
 
 app.launch(debug=False,share=False)
