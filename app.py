@@ -16,8 +16,28 @@ def query(filename):
     response = requests.post(API_URL, headers=headers, data=data)
     return response.json()
 
+  
+  app = gr.Blocks()
+with app:
+    gr.Markdown("# **<p align='center'>Video Classification with Timesformer</p>**")
+    gr.Markdown(
+        """
+        <p style='text-align: center'>
+        Timesformer is a video model that uses a Transformer architecture to process video frames.
+        <br>It is released by Facebook AI Research in ICML 2021.
+        <br>This version is trained on Kinetics-400 dataset and can classify videos into 400 classes.
+        </p>
+        """
+    )
+    gr.Markdown(
+        """
+        <p style='text-align: center'>
+        Follow me for more! 
+        <br> <a href='https://twitter.com/fcakyon' target='_blank'>twitter</a> | <a href='https://github.com/fcakyon' target='_blank'>github</a> | <a href='https://www.linkedin.com/in/fcakyon/' target='_blank'>linkedin</a> | <a href='https://fcakyon.medium.com/' target='_blank'>medium</a>
+        </p>
+        """
+    )
+    
 title = "COVID-19 Detection in Ultrasound Imagery Using Artificial intelligent Methods"
 description = "[Trained on 500 data using Hugging Face dataset."
-Markdown = """\n Demo created by: <a href=\"https://github.com/fcakyon\">fcakyon</<br> Based on this <a href=\"https://huggingface.co/docs/transformers/main/model_doc/timesformer">HuggingFace model</a>"""
-
-gr.Interface.load("models/hamdan07/UltraSound-Lung",examples=example_list,title=title,description=description,Markdown=Markdown).launch(debug=False,share=False)
+gr.Interface.load("models/hamdan07/UltraSound-Lung",examples=example_list,title=title,description=description,Markdown=app).launch(debug=False,share=False)
