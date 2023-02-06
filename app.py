@@ -12,7 +12,7 @@ def query(filename):
 
 app = gr.Blocks()
 with app:
-    gr.Interface.load("models/hamdan07/UltraSound-Lung")
+  
     gr.Markdown("# **<p align='center'>Video Classification with Timesformer</p>**")
     gr.Markdown(
         """
