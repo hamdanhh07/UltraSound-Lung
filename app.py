@@ -18,5 +18,6 @@ def query(filename):
 
 title = "COVID-19 Detection in Ultrasound Imagery Using Artificial intelligent Methods"
 description = "[Trained on 500 data using Hugging Face dataset."
+Markdown = """\n Demo created by: <a href=\"https://github.com/fcakyon\">fcakyon</<br> Based on this <a href=\"https://huggingface.co/docs/transformers/main/model_doc/timesformer">HuggingFace model</a>"""
 
-gr.Interface.load("models/hamdan07/UltraSound-Lung",examples=example_list,title=title,description=description).launch(debug=False,share=False)
+gr.Interface.load("models/hamdan07/UltraSound-Lung",examples=example_list,title=title,description=description,Markdown=Markdown).launch(debug=False,share=False)
