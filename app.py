@@ -31,10 +31,10 @@ with app:
         </p>
         """
     )
-    title = "COVID-19 Detection in Ultrasound Imagery Using Artificial intelligent Methods"
-    description = "[Trained on 500 data using Hugging Face dataset."
+    gr.title = "COVID-19 Detection in Ultrasound Imagery Using Artificial intelligent Methods"
+    gr.description = "[Trained on 500 data using Hugging Face dataset."
    
-    example_list =  [['examples/cov1.png'],
+    gr.example_list =  [['examples/cov1.png'],
                  ['examples/cov2.jpg'],
                  ['examples/nor1.jpg'],
                  ['examples/nor2.jpg'],
