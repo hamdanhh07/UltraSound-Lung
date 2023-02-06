@@ -12,6 +12,7 @@ def query(filename):
 
 app = gr.Blocks()
 with app:
+    gr.Interface.load("models/hamdan07/UltraSound-Lung")
     gr.Markdown("# **<p align='center'>Video Classification with Timesformer</p>**")
     gr.Markdown(
         """
@@ -32,7 +33,7 @@ with app:
     )
     title = "COVID-19 Detection in Ultrasound Imagery Using Artificial intelligent Methods"
     description = "[Trained on 500 data using Hugging Face dataset."
-    gr.Interface.load("models/hamdan07/UltraSound-Lung")
+   
     example_list =  [['examples/cov1.png'],
                  ['examples/cov2.jpg'],
                  ['examples/nor1.jpg'],
