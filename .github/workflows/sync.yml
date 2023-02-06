@@ -16,4 +16,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://hamdan07:$HF_TOKEN@huggingface.co/spaces/hamdan07/UltraSound-Lung main
+        run: git push --force https://hamdan07:$HF_TOKEN@huggingface.co/spaces/hamdan07/UltraSound-Lung main
