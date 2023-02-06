@@ -6,7 +6,7 @@ example_list =  [['examples/cov1.png'],
                  ['examples/penu1.jpg'],
                  ['examples/penu2.jpg']]
 from huggingface_hub.inference_api import InferenceApi
-inference = InferenceApi(repo_id="hamdan07/UltraSound-Lung", token=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)
+inference = InferenceApi(repo_id="hamdan07/UltraSound-Lung", token="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")
 
 
 title = "COVID-19 Detection in Ultrasound Imagery Using Artificial intelligent Methods"
