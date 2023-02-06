@@ -42,7 +42,6 @@ with app:
    
    
     
-    
-app.launch(debug=False,share=False)
-gr.Interface.load("models/hamdan07/UltraSound-Lung",examples=example_list,title=title,description=description).launch(debug=False,share=False)
+   
+gr.Interface.load("models/hamdan07/UltraSound-Lung",examples=example_list,title=app).launch(debug=False,share=False)
 
