@@ -16,8 +16,7 @@ def query(filename):
     response = requests.post(API_URL, headers=headers, data=data)
     return response.json()
 
-  
-  app = gr.Blocks()
+app = gr.Blocks()
 with app:
     gr.Markdown("# **<p align='center'>Video Classification with Timesformer</p>**")
     gr.Markdown(
@@ -40,4 +39,6 @@ with app:
     
 title = "COVID-19 Detection in Ultrasound Imagery Using Artificial intelligent Methods"
 description = "[Trained on 500 data using Hugging Face dataset."
-gr.Interface.load("models/hamdan07/UltraSound-Lung",examples=example_list,title=title,description=description,Markdown=app).launch(debug=False,share=False)
+gr.Interface.load("models/hamdan07/UltraSound-Lung",examples=example_list,title=title,description=description,Markdown=app)
+
+app.launch(debug=False,share=False)
