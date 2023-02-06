@@ -15,6 +15,8 @@ example_list =  [['examples/cov1.png'],
                  ['examples/nor2.jpg'],
                  ['examples/penu1.jpg'],
                  ['examples/penu2.jpg']]
+title = "COVID-19 Detection in Ultrasound Imagery Using Artificial intelligent Methods"
+description = "[Trained on 500 data using Hugging Face dataset."
 app = gr.Blocks()
 with app:
   
@@ -36,12 +38,11 @@ with app:
         </p>
         """
     )
-    gr.title = "COVID-19 Detection in Ultrasound Imagery Using Artificial intelligent Methods"
-    gr.description = "[Trained on 500 data using Hugging Face dataset."
+    
    
    
     
     
 
-
+gr.Interface.load("models/hamdan07/UltraSound-Lung",examples=example_list,title=title,description=description).launch(debug=False,share=False)
 app.launch(debug=False,share=False)
