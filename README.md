@@ -1,3 +1,4 @@
+---
 title: UltraSound Lung
 emoji: 👀
 colorFrom: gray
@@ -7,3 +8,4 @@ sdk_version: 3.17.0
 app_file: app.py
 pinned: false
 license: other
+---
