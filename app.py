@@ -15,17 +15,11 @@ example_list =  [['examples/cov1.png'],
                  ['examples/nor2.jpg'],
                  ['examples/penu1.jpg'],
                  ['examples/penu2.jpg']]
-title ="# **<p align='center'>COVID-19 Detection in Ultrasound with Timesformer</p>**"
+title ="<p align='center'>COVID-19 Detection in Ultrasound with Timesformer</p>"
 description ="""
         <p style='text-align: center'>
         Trained on 500 data using Hugging Face dataset..
-        <br>It is released by Facebook AI Research in ICML 2021.
-        <br>      
-        <p style='text-align: center'>
-        Follow me for more! 
-        <br> <a href='https://twitter.com/fcakyon' target='_blank'>twitter</a> | <a href='https://github.com/fcakyon' target='_blank'>github</a> | <a href='https://www.linkedin.com/in/fcakyon/' target='_blank'>linkedin</a> | <a href='https://fcakyon.medium.com/' target='_blank'>medium</a>
-        </p>
-        .
+        <br>It is released by Facebook AI Research in ICML 2021
         </p>
         """
 
