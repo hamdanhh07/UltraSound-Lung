@@ -9,7 +9,12 @@ def query(filename):
         data = f.read()
     response = requests.post(API_URL, headers=headers, data=data)
     return response.json()
-
+example_list =  [['examples/cov1.png'],
+                 ['examples/cov2.jpg'],
+                 ['examples/nor1.jpg'],
+                 ['examples/nor2.jpg'],
+                 ['examples/penu1.jpg'],
+                 ['examples/penu2.jpg']]
 app = gr.Blocks()
 with app:
   
@@ -34,12 +39,7 @@ with app:
     gr.title = "COVID-19 Detection in Ultrasound Imagery Using Artificial intelligent Methods"
     gr.description = "[Trained on 500 data using Hugging Face dataset."
    
-    gr.example_list =  [['examples/cov1.png'],
-                 ['examples/cov2.jpg'],
-                 ['examples/nor1.jpg'],
-                 ['examples/nor2.jpg'],
-                 ['examples/penu1.jpg'],
-                 ['examples/penu2.jpg']]
+   
     
     
 
