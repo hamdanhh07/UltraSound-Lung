@@ -17,6 +17,6 @@ def query(filename):
     return response.json()
 
 title = "COVID-19 Detection in Ultrasound Imagery Using Artificial intelligent Methods"
-description = "[Trained on european car plates] Identifies the license plate, cuts and displays it, and converts it into text. An image with higher resolution and clearer license plate will have a better accuracy."
+description = "[Trained on 500 data using Hugging Face dataset."
 
 gr.Interface.load("models/hamdan07/UltraSound-Lung",examples=example_list,title=title,description=description).launch(debug=False,share=False)
