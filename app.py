@@ -1,5 +1,8 @@
 import gradio as gr
 import requests
+from transformers import AutoFeatureExtractor, AutoModelForImageClassification
+extractor = AutoFeatureExtractor.from_pretrained("google/vit-base-patch16-224")
+model = AutoModelForImageClassification.from_pretrained("google/vit-base-patch16-224")
 
 API_URL = "https://api-inference.huggingface.co/models/hamdan07/UltraSound-Lung"
 headers = {"Authorization": "Bearer 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"}
