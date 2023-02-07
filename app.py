@@ -16,7 +16,7 @@ example_list =  [['examples/cov1.png'],
                  ['examples/penu1.jpg'],
                  ['examples/penu2.jpg']]
 title ="<p align='center'>COVID-19 Detection in Ultrasound with Timesformer</p>"
-description ="<p style='text-align: center'> Trained on 500 data using Hugging Face dataset<br>It is released by Facebook AI Research in ICML 202 </p><p style='text-align: center'>Follow me for more! <br> <a href='https://twitter.com/fcakyon' target='_blank'>twitter</a> | <a href='https://github.com/fcakyon' target='_blank'>github</a> | <a href='https://www.linkedin.com/in/fcakyon/' target='_blank'>linkedin</a> | <a href='https://fcakyon.medium.com/' target='_blank'>medium</a></p>"
+description ="<p style='text-align: center'> Trained on 500 data using Hugging Face dataset<br>It is released by Facebook AI Research in ICML 202 </p><p style='text-align: center'>Follow me for more! <br> <a href='https://huggingface.co/spaces/hamdan07/UltraSound-Lung' target='_blank'>twitter</a> | <a href='https://huggingface.co/spaces/hamdan07/UltraSound-Lung' target='_blank'>github</a> | <a href='https://huggingface.co/spaces/hamdan07/UltraSound-Lung' target='_blank'>linkedin</a> | <a href='https://huggingface.co/spaces/hamdan07/UltraSound-Lung' target='_blank'>medium</a></p>"
 
 
    
