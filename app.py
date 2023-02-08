@@ -21,8 +21,8 @@ example_list =  [['examples/cov1.png'],
                  ['examples/nor2.jpg'],
                  ['examples/penu1.jpg'],
                  ['examples/penu2.jpg']]
-title ="<p align='center'>COVID-19 Detection in Ultrasound with Timesformer</p>"
-description ="<p style='text-align: center'> Trained on 500 data using Hugging Face dataset<br>It been traied using google/vit-base-patch16-224 </p><p style='text-align: center'>Link for the resource! <br> <a href='https://huggingface.co/datasets/hamdan07/UltraSound-lung' target='_blank'>Hugging Face Dataset</a> |<a href='https://huggingface.co/google/vit-base-patch16-224' target='_blank'>Model</a> | <a href='https://github.com/hamdanhh07/UltraSound-Lung' target='_blank'>github</a></p>"
+title ="<p align='center'>COVID-19 Detection in Ultrasound with Transformer</p>"
+description ="<p style='text-align: center'> Trained on 300 data using Hugging Face dataset<br>It been traied using google/vit-base-patch16-224 </p><p style='text-align: center'>Link for the resource! <br> <a href='https://huggingface.co/datasets/hamdan07/UltraSound-lung' target='_blank'>Hugging Face Dataset</a> |<a href='https://huggingface.co/google/vit-base-patch16-224' target='_blank'>Model</a> | <a href='https://github.com/hamdanhh07/UltraSound-Lung' target='_blank'>github</a></p>"
 
 
    
